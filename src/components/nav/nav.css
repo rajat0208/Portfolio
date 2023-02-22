@@ -1,0 +1,60 @@
+nav{
+    background: rgba(0,0,0, 0.3);
+    width:max-content;
+    display: block;
+    padding: 0.7rem 1.7rem;
+    z-index: 2;
+    position: fixed;
+    left: 50%;
+    transform: translate(-50%);
+    bottom: 38rem;
+    display: flex;
+    gap:2rem;
+    border-radius: 3rem;
+    backdrop-filter: blur(5px);
+}
+nav ul{
+    display: flex;
+    width:max-content;
+}
+
+nav ul li{
+    position: relative;
+    list-style: none;
+    width: 70px;
+    height: 40px;
+    z-index: 1;
+}
+
+nav ul li a{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+}
+
+nav ul li a .icons{
+    position: relative;
+    display: block;
+  
+    font-size: 1.5em;
+    text-align: center;
+    transition: 0.5s;
+}
+
+nav ul li:hover a .icons{
+    transform: translateY(-35px);
+}
+
+nav ul li a .text{
+    position: absolute;
+    transition: 0.5s;
+    opacity: 0;
+    transform: translateY(20px);
+}
+
+nav ul li:hover a .text{
+    opacity: 1;
+}

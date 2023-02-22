@@ -1,0 +1,75 @@
+article>h1{
+    margin-left: 11rem;
+    color: var(--color-primary);
+}
+
+.skill_text>h3{
+    margin-left: 22rem;
+  }
+.skill_icon{ 
+    float: left;
+    font-size: 1.5rem;
+    margin-left: 20rem;
+}
+.frontend{
+    float: left;
+    gap: 0.2rem;
+}
+.backend{
+    float: left;
+    margin-left: -12.5rem;
+}
+
+.progress_bar{
+    float: left;
+    text-align: center;
+    margin-left:1rem;
+}
+
+.frontend_bar{
+    float: left;
+    margin-left: -5rem;
+    margin-top: 3rem;
+    color: var(--color-bar);
+}
+
+.backend_bar{
+    float: left;
+    margin-left: -5rem;
+    margin-top: -6.5rem;
+    color: var(--color-bar);
+}
+
+.backend_progress_bar{
+    float: left;
+    text-align: center;
+    margin-left:62rem;
+}
+
+.design{
+    float: left;
+    margin-top: 2.5rem;
+}
+
+.design_progress_bar{
+    float: left;
+    text-align: center;
+    margin-left: -3.9rem;
+    margin-top: 6rem;
+    color: var(--color-bar);
+}
+
+.others{
+    margin-top: -9.8rem;
+    margin-right: 25.8rem;
+    float: right;
+}
+
+.others_progress_bar{
+    float: left;
+    text-align: center;
+    margin-left:57rem;
+    margin-top: -6.5rem;
+    color: var(--color-bar);
+}
+
